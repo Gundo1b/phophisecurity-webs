@@ -116,25 +116,23 @@ const Services = () => {
 
           {/* In-Person Classes */}
           <div className="bg-violet-50 rounded-xl shadow-md overflow-hidden transition-transform hover:scale-[1.02]">
-            <div className="p-8">
-              <div className="flex items-center justify-center w-16 h-16 bg-purple-500 rounded-full mb-4">
-                <i className="fas fa-chalkboard-teacher text-white text-2xl"></i>
-              </div>
-              <h3 className="text-2xl font-semibold text-gray-800 mb-4">In-Person Classes</h3>
-              <p className="text-gray-600 mb-6">
-                Prefer face-to-face learning? We offer structured contact classes with hands-on problem solving and personal mentorship.
-              </p>
-              <ul className="space-y-2 mb-6">
-                <li><i className="fas fa-check-circle text-green-500 mr-2"></i> Face-to-face instruction</li>
-                <li><i className="fas fa-check-circle text-green-500 mr-2"></i> Hands-on problem solving</li>
-                <li><i className="fas fa-check-circle text-green-500 mr-2"></i> Small group settings</li>
-                <li><i className="fas fa-check-circle text-green-500 mr-2"></i> Dedicated learning environment</li>
-              </ul>
-              <Button onClick={handleEnrollClick} className="px-6 py-3 bg-purple-500 text-white rounded-md font-medium hover:bg-violet-600 transition-colors">
-                Book In-Person Class
-              </Button>
-            </div>
-          </div>
+  <div className="p-8">
+    <div className="flex items-center justify-center w-16 h-16 bg-purple-500 rounded-full mb-4">
+      <i className="fas fa-chalkboard-teacher text-white text-2xl"></i>
+    </div>
+    <h3 className="text-2xl font-semibold text-gray-800 mb-4">FINAL REVISION EXAMINATION</h3>
+    <p className="text-gray-700 mb-2"><strong>Grades:</strong> 10–1</p>
+    <p className="text-gray-700 mb-2"><strong>Subjects:</strong> Mathematics / Mathematical Literacy, Physics, Accounting, Life Science</p>
+    <p className="text-gray-700 mb-6"><strong>Requirement:</strong> Must have an average of 45% in the subject</p>
+    <button
+      onClick={handleEnrollClick}
+      className="px-6 py-3 bg-purple-500 text-white rounded-md font-medium hover:bg-violet-600 transition-colors"
+    >
+      Book Now
+    </button>
+  </div>
+</div>
+
           
         </div>
       </div>

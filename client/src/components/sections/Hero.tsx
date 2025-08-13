@@ -86,24 +86,38 @@ const Hero = () => {
       </section>
 
       {/* Announcement Section */}
-      <section className="bg-gradient-to-r from-orange-300 to-red-400 py-8 px-4">
-        <div className="max-w-7xl mx-auto">
-          <div className="text-center">
-            <h2 className="text-3xl font-bold text-white mb-4">
-               FINAL REVISION EXAMINATION WORKSHOP 
-            </h2>
-            <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 text-white">
-              <h3 className="text-2xl font-semibold mb-3">Grade 10-12 Workshop</h3>
-              <p className="text-lg mb-4">
-                Subjects: <span className="font-bold">Mathematics/Mathematical Literacy, Physics, Accounting, Life Science</span>
-              </p>
-              <div className="bg-yellow-400 text-gray-800 px-4 py-2 rounded-full inline-block font-bold text-lg">
-                Requirement: Must have average of 45% on the subject
-              </div>
-            </div>
-          </div>
+      <section className="bg-gradient-to-br from-orange-400 via-pink-400 to-red-400 py-16 px-6">
+  <div className="max-w-5xl mx-auto">
+    <div className="text-center">
+      {/* Main Heading */}
+      <h2 className="text-4xl md:text-5xl font-extrabold text-white drop-shadow-2xl mb-12 animate-pulse">
+        FINAL REVISION EXAMINATION
+      </h2>
+
+      {/* Oval Container */}
+      <div className="relative bg-gradient-to-r from-yellow-300 via-orange-300 to-pink-300 backdrop-blur-sm rounded-[3rem] p-12 text-gray-900 shadow-2xl border border-white/25 hover:scale-105 transition-transform duration-500">
+        <h3 className="text-3xl md:text-4xl font-semibold mb-6">
+           Grade 10–12 
+        </h3>
+        <p className="text-lg md:text-xl leading-relaxed mb-8">
+          Subjects:{" "}
+          <span className="font-bold text-red-600">
+            Mathematics / Mathematical Literacy, Physics, Accounting, Life Science
+          </span>
+        </p>
+
+        {/* Requirement pill */}
+        <div className="bg-gradient-to-r from-green-400 to-emerald-500 text-white px-8 py-4 rounded-full inline-block font-bold text-lg shadow-lg">
+           Requirement: Must have average of 45% in the subject
         </div>
-      </section>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
     </>
   );
 };
